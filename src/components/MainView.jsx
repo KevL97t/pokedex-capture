@@ -57,7 +57,7 @@ const MainView = () => {
         <label htmlFor="name">Enter a pokemon name</label>
         <br />
         <br />
-        <input className='searchform__input' onChange={(e) => handleInputText(e)}  type='text' name='name' id='name'/>
+        <input className='searchform__input' onChange={(e) => handleInputText(e)}  type='text' name='name' id='name' placeholder='charizard'/>
         <br /><br />
         <button className='searchform__button' onClick={handleFetch}>Catch</button>
     </div>
