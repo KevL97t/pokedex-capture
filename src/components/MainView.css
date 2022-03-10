@@ -1,0 +1,50 @@
+.mainview__container{
+    background-color: #2F97C1;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    overflow-y: scroll;
+    padding-bottom: 40px;
+}
+
+.mainview__container > p{
+    color: whitesmoke;
+}
+
+.errormessage{
+    color: whitesmoke;
+}
+
+.searchform__container{
+    margin-top: 1.5rem;
+}
+
+.searchform__container > label {
+    color: whitesmoke;
+    font-size: 400;
+}
+
+.searchform__input{
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    height: 28px;
+    text-align: center;
+}
+
+.searchform__input:focus{
+    outline: none;
+}
+
+.searchform__button{
+    padding: 1em;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: whitesmoke;
+    background-color: #4da33c;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 700;
+}

@@ -1,0 +1,11 @@
+.successfull__container{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 200px;
+    height: 60px;
+    background-color: green;
+    color: whitesmoke;
+    border-radius: 8px;
+    padding: 16px;
+}

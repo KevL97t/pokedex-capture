@@ -1,0 +1,5 @@
+const POKEMON_TYPES = {
+    ADD_POKEMON: 'ADD_POKEMON'
+}
+
+export { POKEMON_TYPES }  

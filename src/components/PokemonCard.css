@@ -1,0 +1,39 @@
+.pokemoncard__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 8px;
+    background: rgb(60,199,114);
+    background: linear-gradient(306deg, rgba(60,199,114,1) 22%, rgba(37,192,223,1) 79%);
+    padding-bottom: 10px;
+}
+
+.pokemoncard__icon{
+    width: 160px;
+    border-bottom: 2px whitesmoke solid;
+    padding-bottom: 20px;
+}
+
+.pokemoncard__name{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.pokemoncard__id--container{
+    margin-top: -22px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(209, 197, 24);
+    border-radius: 50%;
+    font-size: 19px;
+    padding-top: 2px;
+    font-weight: 700;
+    color: rgb(14, 82, 145);
+    padding: 4px;
+    border: 2px solid whitesmoke;
+}
+
+

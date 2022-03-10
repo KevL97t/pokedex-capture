@@ -1,0 +1,17 @@
+.pokemonlist__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin: 40px auto;
+    max-width: 95%;
+}
+
+.nopokemons__message{
+    color: whitesmoke;
+    background-color: rgb(177, 160, 10);
+    width: 300px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 0 auto;
+}

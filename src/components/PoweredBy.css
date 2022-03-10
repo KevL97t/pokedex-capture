@@ -1,0 +1,16 @@
+.poweredby__container{
+    margin: 24px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.poweredby__text{
+    font-weight: 700;
+    
+}
+
+.poweredby__icon{
+    width: 120px;
+    margin-left: 12px;
+}
